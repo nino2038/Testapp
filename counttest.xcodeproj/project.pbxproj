@@ -81,6 +81,7 @@
 		9DC4BB101A12194D008012D8 /* counttest */ = {
 			isa = PBXGroup;
 			children = (
+				9DC4BB111A12194D008012D8 /* Supporting Files */,
 				9DC4BB151A12194D008012D8 /* AppDelegate.h */,
 				9DC4BB161A12194D008012D8 /* AppDelegate.m */,
 				9DC4BB181A12194D008012D8 /* ViewController.h */,
@@ -88,7 +89,6 @@
 				9DC4BB1B1A12194D008012D8 /* Main.storyboard */,
 				9DC4BB1E1A12194D008012D8 /* Images.xcassets */,
 				9DC4BB201A12194D008012D8 /* LaunchScreen.xib */,
-				9DC4BB111A12194D008012D8 /* Supporting Files */,
 			);
 			path = counttest;
 			sourceTree = "<group>";

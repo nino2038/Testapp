@@ -13,6 +13,22 @@
 @end
 
 @implementation ViewController
+-(IBAction)plus{
+    number=number+1;
+    label.text=[NSString stringWithFormat:@"%d",number];
+    if(number>=10){
+        label.textColor=[UIColor redColor];
+    }
+    
+}
+-(IBAction)minus{
+    number=number-1;
+    label.text=[NSString stringWithFormat:@"%d",number];
+    if(number<=10){
+        label.textColor=[UIColor blackColor];
+    }
+    
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
